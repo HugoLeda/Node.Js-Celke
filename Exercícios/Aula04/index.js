@@ -1,13 +1,8 @@
-/*
-import { createServer } from 'http'
+const http = require('http')
 
-createServer(function(req, res){
-    res.end(`Gerenciador`)
-}).listen(8080)
-*/
+const server = http.createServer()
 
-var http = require('http')
-
-http.createServer(function(req, res){
-    res.end('Gerenciador')
-}).listen(800)
+server.listen(3001, 'localhost', () => {
+    console.log('Servidor de pé em: localhost:3001')
+    console.log('Para desligar: ctrl + c')
+})
