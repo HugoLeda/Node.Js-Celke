@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/HugoLeda/Node.Js-Celke/issues"
   },
-  "homepage": "https://github.com/HugoLeda/Node.Js-Celke#readme"
+  "homepage": "https://github.com/HugoLeda/Node.Js-Celke#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
