@@ -1,0 +1,17 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "como criar um server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Joao Hugo",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
