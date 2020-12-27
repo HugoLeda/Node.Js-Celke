@@ -2,7 +2,11 @@ const express = require('express')
 const server = express()
 
 server.get('/', (req, res) => {
-    res.send('<h1>Home</h1>')
+    res.sendFile(__dirname + '/src/index.html')
+})
+
+server.get('/sobre-empresa', (req, res) => {
+    res.sendFile(__dirname + '/src/sobre-empresa.html')
 })
 
 server.get('/contato', (req, res) => {
