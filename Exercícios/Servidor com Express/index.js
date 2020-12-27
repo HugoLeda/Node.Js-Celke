@@ -21,3 +21,7 @@ server.listen(5050, () =>{
     console.log('Servidor de pé em localhost:5050')
     console.log('Para derrubar ctrl + c')
 })
+
+/*
+npm install -g nodemon
+*/
