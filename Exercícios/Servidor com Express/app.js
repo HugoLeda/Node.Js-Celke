@@ -1,6 +1,25 @@
 const express = require('express')
 const server = express()
 
+//Conexão DB MySQL
+const mysql = require('mysql')
+
+const connection = mysql.createConnection({
+    host        : 'localhost',
+    user        : 'joao',
+    password    : '040303',
+    database    : 'celke'
+})
+
+connection.connect(function (err) {
+    if (err) {
+        console.log('error connecting ' + err.stack)
+        return
+    }
+
+    console.log('connected as id ' + connection.threadId)
+})
+
 server.get('/', (req, res) => {
     res.sendFile(__dirname + '/src/index.html')
 })
