@@ -1,0 +1,14 @@
+{
+  "name": "insert",
+  "version": "1.0.0",
+  "description": "inserindo registros",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Hugo Leda",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
