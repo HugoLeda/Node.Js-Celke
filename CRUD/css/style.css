@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkred;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #356563;    
+}
+
+table {
+    width: 90%;
+}
+
+table td {
+    width: 30%;
+    align-items: center;
+}
+
+table tr:first-child {
+    background-color: rgb(100, 100, 100);
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}

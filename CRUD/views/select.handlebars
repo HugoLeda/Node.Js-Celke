@@ -1,0 +1,18 @@
+<table>
+    <tr>       
+        <td>Action</td> 
+        <td>Nome</td>
+        <td>Data de Nascimento</td>
+    </tr>
+
+    {{#data}}
+        <tr>   
+            <td>
+                <a href="update/{{Nome}}"><img src="/img/edit.png" alt="atualizar"></a>
+                <a href="deletar/{{Nome}}"><img src="/img/LixeiraFechada.png" alt="deletar"></a>
+            </td>         
+            <td>{{Nome}}</td>
+            <td>{{DNasc}}</td>
+        </tr>
+    {{/data}}
+</table>
